@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: e2a20c89ec53f4b40a7a632c46fd88ab
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5094104268719539237
+    second: Shooting Pixel art-Sheet_0
+  - first:
+      213: -7992254219047859107
+    second: Shooting Pixel art-Sheet_1
+  - first:
+      213: 6665066983912158653
+    second: Shooting Pixel art-Sheet_2
+  - first:
+      213: 399544292173105572
+    second: Shooting Pixel art-Sheet_3
+  - first:
+      213: 1546694164716872563
+    second: Shooting Pixel art-Sheet_4
+  - first:
+      213: -5697322901832935508
+    second: Shooting Pixel art-Sheet_5
+  - first:
+      213: 8826862153865595002
+    second: Shooting Pixel art-Sheet_6
+  - first:
+      213: -2111343118654624450
+    second: Shooting Pixel art-Sheet_7
+  - first:
+      213: -2936914182944864548
+    second: Shooting Pixel art-Sheet_8
+  - first:
+      213: 6162212285739637439
+    second: Shooting Pixel art-Sheet_9
+  - first:
+      213: 8135609106926263221
+    second: Shooting Pixel art-Sheet_10
+  - first:
+      213: 3569195298456820978
+    second: Shooting Pixel art-Sheet_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +107,96 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Shooting Pixel art-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbbb26482b1e49b0800000000000000
+      internalID: -5094104268719539237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shooting Pixel art-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c090fe12fc51190800000000000000
+      internalID: -7992254219047859107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shooting Pixel art-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5b44cdb131f7c50800000000000000
+      internalID: 6665066983912158653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

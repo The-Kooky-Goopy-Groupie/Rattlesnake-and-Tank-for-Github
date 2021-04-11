@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: 446675f0e51267f4590f4f1c63b62615
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8057172061107798930
+    second: Mysterious Figure-Sheet_0
+  - first:
+      213: 2627958565495862270
+    second: Mysterious Figure-Sheet_1
+  - first:
+      213: 522240057703927922
+    second: Mysterious Figure-Sheet_2
+  - first:
+      213: 4211617562505284400
+    second: Mysterious Figure-Sheet_3
+  - first:
+      213: 2832195079861418460
+    second: Mysterious Figure-Sheet_4
+  - first:
+      213: -3190164824533359
+    second: Mysterious Figure-Sheet_5
+  - first:
+      213: -284177798308004734
+    second: Mysterious Figure-Sheet_6
+  - first:
+      213: 6828083208120370399
+    second: Mysterious Figure-Sheet_7
+  - first:
+      213: -5920876246073778625
+    second: Mysterious Figure-Sheet_8
+  - first:
+      213: 7870322599739414993
+    second: Mysterious Figure-Sheet_9
+  - first:
+      213: 4944298473697905953
+    second: Mysterious Figure-Sheet_10
+  - first:
+      213: 4163245865986852708
+    second: Mysterious Figure-Sheet_11
+  - first:
+      213: -2466314440748048069
+    second: Mysterious Figure-Sheet_0
+  - first:
+      213: 8843387996268506167
+    second: Mysterious Figure-Sheet_1
+  - first:
+      213: 4718340215460119122
+    second: Mysterious Figure-Sheet_2
+  - first:
+      213: -4862255511215803546
+    second: Mysterious Figure-Sheet_3
+  - first:
+      213: 7155874369695089567
+    second: Mysterious Figure-Sheet_4
+  - first:
+      213: -4925280418696547389
+    second: Mysterious Figure-Sheet_5
+  - first:
+      213: 7552703566923106891
+    second: Mysterious Figure-Sheet_6
+  - first:
+      213: -1011060296263664399
+    second: Mysterious Figure-Sheet_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +131,201 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mysterious Figure-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31ebce4514e5cdd0800000000000000
+      internalID: -2466314440748048069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mysterious Figure-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ca98047860aba70800000000000000
+      internalID: 8843387996268506167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mysterious Figure-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252c0f75d69ea7140800000000000000
+      internalID: 4718340215460119122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mysterious Figure-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663fbc6bf5cc58cb0800000000000000
+      internalID: -4862255511215803546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mysterious Figure-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f938ff663d5ce4360800000000000000
+      internalID: 7155874369695089567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mysterious Figure-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3b760fd83e5abb0800000000000000
+      internalID: -4925280418696547389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mysterious Figure-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a0740d0e790d860800000000000000
+      internalID: 7552703566923106891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mysterious Figure-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcf3b2740ef7f1f0800000000000000
+      internalID: -1011060296263664399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,178 @@
 fileFormatVersion: 2
 guid: 7b5b842f1192ba6449296eabd1e6aeef
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9192235280947229080
+    second: Barron Bunny Game Sprites-Sheet_0
+  - first:
+      213: 3511398893166505018
+    second: Barron Bunny Game Sprites-Sheet_1
+  - first:
+      213: 7341357090759804167
+    second: Barron Bunny Game Sprites-Sheet_2
+  - first:
+      213: 6273750643016679761
+    second: Barron Bunny Game Sprites-Sheet_3
+  - first:
+      213: 8573391591786860687
+    second: Barron Bunny Game Sprites-Sheet_4
+  - first:
+      213: -1045937579134799653
+    second: Barron Bunny Game Sprites-Sheet_5
+  - first:
+      213: 1141586726713235882
+    second: Barron Bunny Game Sprites-Sheet_6
+  - first:
+      213: -3954210954325505815
+    second: Barron Bunny Game Sprites-Sheet_7
+  - first:
+      213: 3569690959996869137
+    second: Barron Bunny Game Sprites-Sheet_8
+  - first:
+      213: 5006963012382092568
+    second: Barron Bunny Game Sprites-Sheet_9
+  - first:
+      213: 7179113748863606401
+    second: Barron Bunny Game Sprites-Sheet_10
+  - first:
+      213: -6133065725833356599
+    second: Barron Bunny Game Sprites-Sheet_11
+  - first:
+      213: -2811884008189358193
+    second: Barron Bunny Game Sprites-Sheet_12
+  - first:
+      213: 1440224603782775434
+    second: Barron Bunny Game Sprites-Sheet_13
+  - first:
+      213: 1177209299606447783
+    second: Barron Bunny Game Sprites-Sheet_14
+  - first:
+      213: 1121118129653446016
+    second: Barron Bunny Game Sprites-Sheet_15
+  - first:
+      213: 8963934465085815643
+    second: Barron Bunny Game Sprites-Sheet_16
+  - first:
+      213: -2709554537144237772
+    second: Barron Bunny Game Sprites-Sheet_17
+  - first:
+      213: 3914476666255919992
+    second: Barron Bunny Game Sprites-Sheet_18
+  - first:
+      213: -1449143050428626562
+    second: Barron Bunny Game Sprites-Sheet_19
+  - first:
+      213: 2315399768571547810
+    second: Barron Bunny Game Sprites-Sheet_20
+  - first:
+      213: 742231767254858678
+    second: Barron Bunny Game Sprites-Sheet_21
+  - first:
+      213: -5230729842601231446
+    second: Barron Bunny Game Sprites-Sheet_22
+  - first:
+      213: 4714099921621954767
+    second: Barron Bunny Game Sprites-Sheet_23
+  - first:
+      213: 7329164253279095402
+    second: Barron Bunny Game Sprites-Sheet_24
+  - first:
+      213: -2332378426642458656
+    second: Barron Bunny Game Sprites-Sheet_25
+  - first:
+      213: 3315196384058970114
+    second: Barron Bunny Game Sprites-Sheet_26
+  - first:
+      213: 4126148117058094466
+    second: Barron Bunny Game Sprites-Sheet_27
+  - first:
+      213: -8114789671974676453
+    second: Barron Bunny Game Sprites-Sheet_28
+  - first:
+      213: 3660416956288179928
+    second: Barron Bunny Game Sprites-Sheet_29
+  - first:
+      213: -416045558095357195
+    second: Barron Bunny Game Sprites-Sheet_30
+  - first:
+      213: 7518387150086956103
+    second: Barron Bunny Game Sprites-Sheet_31
+  - first:
+      213: -2662046805275003973
+    second: Barron Bunny Game Sprites-Sheet_32
+  - first:
+      213: 4871013222042435759
+    second: Barron Bunny Game Sprites-Sheet_33
+  - first:
+      213: -8050896665958255396
+    second: Barron Bunny Game Sprites-Sheet_34
+  - first:
+      213: 4271600612438571726
+    second: Barron Bunny Game Sprites-Sheet_35
+  - first:
+      213: 7996910409396226748
+    second: Barron Bunny Game Sprites-Sheet_36
+  - first:
+      213: 3757883371942048771
+    second: Barron Bunny Game Sprites-Sheet_37
+  - first:
+      213: 6306141503905125656
+    second: Barron Bunny Game Sprites-Sheet_38
+  - first:
+      213: -8681221304439919709
+    second: Barron Bunny Game Sprites-Sheet_39
+  - first:
+      213: -2692545386563120073
+    second: Barron Bunny Game Sprites-Sheet_40
+  - first:
+      213: -5438389432109501311
+    second: Barron Bunny Game Sprites-Sheet_41
+  - first:
+      213: -331095516401108514
+    second: Barron Bunny Game Sprites-Sheet_42
+  - first:
+      213: -8875983362477697288
+    second: Barron Bunny Game Sprites-Sheet_43
+  - first:
+      213: 4382426442372897897
+    second: Barron Bunny Game Sprites-Sheet_44
+  - first:
+      213: 4407555757921797310
+    second: Barron Bunny Game Sprites-Sheet_45
+  - first:
+      213: 273157675844969265
+    second: Barron Bunny Game Sprites-Sheet_46
+  - first:
+      213: 8356365776501085006
+    second: Barron Bunny Game Sprites-Sheet_47
+  - first:
+      213: 8699196153681696166
+    second: Barron Bunny Game Sprites-Sheet_48
+  - first:
+      213: -7686598645448621243
+    second: Barron Bunny Game Sprites-Sheet_49
+  - first:
+      213: 2247338271717944986
+    second: Barron Bunny Game Sprites-Sheet_50
+  - first:
+      213: -850470247297822034
+    second: Barron Bunny Game Sprites-Sheet_51
+  - first:
+      213: 7329541349386306943
+    second: Barron Bunny Game Sprites-Sheet_52
+  - first:
+      213: -2106477431284867957
+    second: Barron Bunny Game Sprites-Sheet_53
+  - first:
+      213: -2195328008444461639
+    second: Barron Bunny Game Sprites-Sheet_54
+  - first:
+      213: 5419258246486572816
+    second: Barron Bunny Game Sprites-Sheet_55
+  - first:
+      213: -501071605335878874
+    second: Barron Bunny Game Sprites-Sheet_56
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +211,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +242,600 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ec35be6be9e6080800000000000000
+      internalID: -9192235280947229080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ca3eb60befab030800000000000000
+      internalID: 3511398893166505018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705880cb06db1e560800000000000000
+      internalID: 7341357090759804167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151436658f6d01750800000000000000
+      internalID: 6273750643016679761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80d6cc9a3ecaf670800000000000000
+      internalID: 8573391591786860687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0307a30551c71f0800000000000000
+      internalID: -1045937579134799653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa91b0e541bb7df00800000000000000
+      internalID: 1141586726713235882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8487c5612df19c0800000000000000
+      internalID: -3954210954325505815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a598cd3071a8130800000000000000
+      internalID: 3569690959996869137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ded8ce45e4c7540800000000000000
+      internalID: 5006963012382092568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e53230be551a360800000000000000
+      internalID: 7179113748863606401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca549b7739f2eaa0800000000000000
+      internalID: -6133065725833356599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f854e746e2af8d0800000000000000
+      internalID: -2811884008189358193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82004185a4bcf310800000000000000
+      internalID: 1440224603782775434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a62451fe99465010800000000000000
+      internalID: 1177209299606447783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0857e3dbff20f8f00800000000000000
+      internalID: 1121118129653446016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b325d27ea466c70800000000000000
+      internalID: 8963934465085815643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43148f9118ab56ad0800000000000000
+      internalID: -2709554537144237772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b4db5c9c3035630800000000000000
+      internalID: 3914476666255919992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79c972d21c93ebe0800000000000000
+      internalID: -1449143050428626562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a09abe62d3f12020800000000000000
+      internalID: 2315399768571547810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb7c3c1cdfec4a00800000000000000
+      internalID: 742231767254858678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabf7b7fbe6b867b0800000000000000
+      internalID: -5230729842601231446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc039fff6e8db6140800000000000000
+      internalID: 4714099921621954767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a01398e0c66b560800000000000000
+      internalID: 7329164253279095402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7113ead2ab1afd0800000000000000
+      internalID: -2332378426642458656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barron Bunny Game Sprites-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2009e70fb81f10e20800000000000000
+      internalID: 3315196384058970114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
