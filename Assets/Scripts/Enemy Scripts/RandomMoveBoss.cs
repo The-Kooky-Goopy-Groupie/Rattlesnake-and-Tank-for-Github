@@ -42,10 +42,11 @@ public class RandomMoveBoss : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) // This Is used to Check If hitting a wall Area and then To Turn Back 
     {
-        if (other.gameObject.tag == "Basic Walling") 
+        if (other.gameObject.tag == "Basic Walling")
         {
             Debug.Log("COLLISION  WALL"); // Used Currently In Testing
             movementPerSecond = -movementDirection * characterVelocity; // Inverses the direction on the movement Instead
         }
     }
+
 }

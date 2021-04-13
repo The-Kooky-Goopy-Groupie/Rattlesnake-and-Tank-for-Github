@@ -34,17 +34,12 @@ public class RattlesnakeMovement : MonoBehaviour
         }
         else if (Input.GetAxisRaw("Vertical") > 0)
         {
-            myAnime.SetInteger("DIR", 1); // Not going here for some reason - SOLVED - Reason Why Was Because Of no else
+            myAnime.SetInteger("DIR", 4); // Not going here for some reason - SOLVED - Reason Why Was Because Of no else
 
         }
         else if (Input.GetAxisRaw("Vertical") < 0)
         {
-            myAnime.SetInteger("DIR", 2); // works
-
-        }
-        else if (Input.GetAxisRaw("Jump") > 0)
-        {
-            myAnime.SetInteger("DIR", 4); //sorta works
+            myAnime.SetInteger("DIR", 5); // works
 
         }
         else
