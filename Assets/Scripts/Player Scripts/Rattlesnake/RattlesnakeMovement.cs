@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; // This is used to be able to swap through Scenes 
 
 public class RattlesnakeMovement : MonoBehaviour
 {
@@ -47,13 +48,18 @@ public class RattlesnakeMovement : MonoBehaviour
             myAnime.SetInteger("DIR", 0); // works
 
         }
+
+        if (HP < 0)
+        {
+            SceneManager.LoadScene("Scene 4.1 - Lose!", LoadSceneMode.Single);
+        }
     }
 
 
     private void OnTriggerEnter2D(Collider2D other) // Used For the Collision of the Bullets - CURRENT ISSUE - No Collisions Detected
     {
 
-        if (other.gameObject.tag == "ENEMYBULLET")
+        if (other.gameObject.tag == "Enemy Bullet")
         {
             Debug.Log("COLLISION ENEMY BULLET DETECTED");
             HP = HP - 1; // put after sending it away 

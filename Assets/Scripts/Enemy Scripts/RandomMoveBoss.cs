@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; // This is used to be able to swap through Scenes 
 
 public class RandomMoveBoss : MonoBehaviour
 {
@@ -9,11 +10,15 @@ public class RandomMoveBoss : MonoBehaviour
     private float characterVelocity = 0.5f;
     private Vector2 movementDirection;
     private Vector2 movementPerSecond;
+    public Animator myAnime;
+    public int HP = 100;
+    public int MaxHP = 100;
 
 
     void Start()
     {
         latestDirectionChangeTime = 0f;
+        myAnime = this.GetComponent<Animator>();
         calcuateNewMovementVector();
     }
 
@@ -37,7 +42,24 @@ public class RandomMoveBoss : MonoBehaviour
         //move enemy: 
         transform.position = new Vector2(transform.position.x + (movementPerSecond.x * Time.deltaTime),
         transform.position.y + (movementPerSecond.y * Time.deltaTime));
+        if (HP < 0) {
+            StartCoroutine(WaitForDeathAnimation());
+        }
 
+    }
+
+    public IEnumerator WaitForDeathAnimation()
+    {
+        myAnime.SetInteger("DIR", 1);
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene("Scene 4 - Win!", LoadSceneMode.Single);
+
+    }
+
+    public IEnumerator InvunurbilityFrames()
+    {
+        yield return new WaitForSeconds(.2f);
+    
     }
 
     private void OnTriggerEnter2D(Collider2D other) // This Is used to Check If hitting a wall Area and then To Turn Back 
@@ -47,6 +69,25 @@ public class RandomMoveBoss : MonoBehaviour
             Debug.Log("COLLISION  WALL"); // Used Currently In Testing
             movementPerSecond = -movementDirection * characterVelocity; // Inverses the direction on the movement Instead
         }
-    }
 
+        if (other.gameObject.tag == "Ball") // Can Do Damage inside of here and this will give invublity on hit
+        {
+            Debug.Log("Enemy hit - Ball"); // Used Currently In Testing
+            StartCoroutine(InvunurbilityFrames());
+            HP = HP - 5;
+        }
+
+        if (other.gameObject.tag == "Bullet") // Can Do Damage inside of here and this will give invublity on hit
+        {
+            Debug.Log("Enemy hit"); // Used Currently In Testing
+            StartCoroutine(InvunurbilityFrames());
+            HP = HP - 2;
+        }
+    }
 }
+
+
+
+
+
+

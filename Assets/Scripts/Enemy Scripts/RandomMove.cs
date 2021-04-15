@@ -9,11 +9,15 @@ public class RandomMove : MonoBehaviour
     private float characterVelocity = 0.5f;
     private Vector2 movementDirection;
     private Vector2 movementPerSecond;
+    public Animator myAnime;
+    public int HP = 10;
+    public int MaxHP = 10;
 
 
     void Start()
     {
         latestDirectionChangeTime = 0f;
+        myAnime = this.GetComponent<Animator>();
         calcuateNewMovementVector();
     }
 
@@ -40,14 +44,27 @@ public class RandomMove : MonoBehaviour
 
     }
 
+    public IEnumerator WaitForDeathAnimation()
+    {
+        yield return new WaitForSeconds(0.5f);
+        myAnime.SetBool("Hurt", false);
+    }
+
     private void OnTriggerEnter2D(Collider2D other) // This Is used to Check If hitting a wall Area and then To Turn Back 
     {
         if (other.gameObject.tag == "Basic Walling")
         {
             Debug.Log("COLLISION  WALL"); // Used Currently In Testing
             movementPerSecond = -movementDirection * characterVelocity; // Inverses the direction on the movement Instead
+            //movementDirection = new Vector2(0, 0);
+        }
+
+        if (other.gameObject.tag == "Bullet" && myAnime.GetBool("Hurt") == false) // Can Do Damage inside of here and this will give invublity on hit
+        {
+            Debug.Log("Enemy hit"); // Used Currently In Testing
+            myAnime.SetBool("Hurt", true);
+            StartCoroutine(WaitForDeathAnimation());
         }
     }
 
 }
-

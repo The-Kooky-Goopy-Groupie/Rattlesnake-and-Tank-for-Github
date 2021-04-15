@@ -7,6 +7,10 @@ TagManager:
   - Basic Walling
   - Boss Enemy
   - Ball
+  - Bullet
+  - Basic Enemy
+  - Enemy Bullets
+  - Enemy Strong Bullets
   layers:
   - Default
   - TransparentFX
@@ -20,7 +24,7 @@ TagManager:
   - Tank
   - Bullets
   - Basic Walling
-  - 
+  - Enemy Bullets
   - 
   - 
   - 
