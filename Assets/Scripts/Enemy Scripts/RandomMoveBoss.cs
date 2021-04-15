@@ -13,13 +13,16 @@ public class RandomMoveBoss : MonoBehaviour
     public Animator myAnime;
     public int HP = 100;
     public int MaxHP = 100;
-
+    public float fireRate = 4f;
+    float nextFire;
 
     void Start()
     {
         latestDirectionChangeTime = 0f;
         myAnime = this.GetComponent<Animator>();
         calcuateNewMovementVector();
+        nextFire = Time.time;
+
     }
 
     void calcuateNewMovementVector()
@@ -42,11 +45,14 @@ public class RandomMoveBoss : MonoBehaviour
         //move enemy: 
         transform.position = new Vector2(transform.position.x + (movementPerSecond.x * Time.deltaTime),
         transform.position.y + (movementPerSecond.y * Time.deltaTime));
-        if (HP < 0) {
+        if (HP < 0)
+        {
             StartCoroutine(WaitForDeathAnimation());
         }
+        // Update is called once per frame
 
     }
+
 
     public IEnumerator WaitForDeathAnimation()
     {
@@ -59,7 +65,7 @@ public class RandomMoveBoss : MonoBehaviour
     public IEnumerator InvunurbilityFrames()
     {
         yield return new WaitForSeconds(.2f);
-    
+
     }
 
     private void OnTriggerEnter2D(Collider2D other) // This Is used to Check If hitting a wall Area and then To Turn Back 
@@ -81,7 +87,7 @@ public class RandomMoveBoss : MonoBehaviour
         {
             Debug.Log("Enemy hit"); // Used Currently In Testing
             StartCoroutine(InvunurbilityFrames());
-            HP = HP - 2;
+            HP = HP - 1;
         }
     }
 }

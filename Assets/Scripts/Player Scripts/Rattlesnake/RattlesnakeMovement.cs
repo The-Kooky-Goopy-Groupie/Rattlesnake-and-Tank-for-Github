@@ -59,10 +59,15 @@ public class RattlesnakeMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) // Used For the Collision of the Bullets - CURRENT ISSUE - No Collisions Detected
     {
 
-        if (other.gameObject.tag == "Enemy Bullet")
+        if (other.gameObject.tag == "Enemy Bullets")
         {
             Debug.Log("COLLISION ENEMY BULLET DETECTED");
             HP = HP - 1; // put after sending it away 
+        }
+        if (other.gameObject.tag == "Enemy Strong Bullets")
+        {
+            Debug.Log("COLLISION ENEMY BULLET DETECTED");
+            HP = HP - 2; // put after sending it away 
         }
 
     }

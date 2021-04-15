@@ -42,6 +42,7 @@ public class RandomMove : MonoBehaviour
         transform.position = new Vector2(transform.position.x + (movementPerSecond.x * Time.deltaTime),
         transform.position.y + (movementPerSecond.y * Time.deltaTime));
 
+       
     }
 
     public IEnumerator WaitForDeathAnimation()
