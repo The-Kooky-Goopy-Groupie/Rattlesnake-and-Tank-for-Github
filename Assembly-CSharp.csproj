@@ -65,12 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Animations\Enemy Animator\EnemyBulletDespawns.cs" />
-    <Compile Include="Assets\Scripts\Enemy Scripts\CollisionNonSpikeObject.cs" />
-    <Compile Include="Assets\Scripts\Enemy Scripts\CollisionSpikedObject.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Flying.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\RandomMove.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\RandomMoveBoss.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\ShootAtPlayer.cs" />
+    <Compile Include="Assets\Scripts\Game Handler Scripts\EnemyFinder.cs" />
     <Compile Include="Assets\Scripts\Game Handler Scripts\PaneAndSceneHandler.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\BulletCollisions.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Rattlesnake\RattlesnakeMovement.cs" />

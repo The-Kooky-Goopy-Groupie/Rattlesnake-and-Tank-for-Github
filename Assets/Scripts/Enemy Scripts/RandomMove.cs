@@ -58,6 +58,7 @@ public class RandomMove : MonoBehaviour
         myAnime.SetBool("Death", true);
         yield return new WaitForSeconds(1.0f);
         Destroy(gameObject);
+        EnemyFinder.EnemyCount = EnemyFinder.EnemyCount - 1;
     }
 
     private void OnTriggerEnter2D(Collider2D other) // This Is used to Check If hitting a wall Area and then To Turn Back 
