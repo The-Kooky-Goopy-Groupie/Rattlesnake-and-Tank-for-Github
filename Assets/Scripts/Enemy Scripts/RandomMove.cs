@@ -41,14 +41,23 @@ public class RandomMove : MonoBehaviour
         //move enemy: 
         transform.position = new Vector2(transform.position.x + (movementPerSecond.x * Time.deltaTime),
         transform.position.y + (movementPerSecond.y * Time.deltaTime));
+        if (HP < 0)
+        {
+            StartCoroutine(WaitForDeathAnimation());
+        }
 
-       
     }
 
-    public IEnumerator WaitForDeathAnimation()
+    public IEnumerator WaitForHurtAnimation()
     {
         yield return new WaitForSeconds(0.5f);
         myAnime.SetBool("Hurt", false);
+    }
+    public IEnumerator WaitForDeathAnimation()
+    {
+        myAnime.SetBool("Death", true);
+        yield return new WaitForSeconds(1.0f);
+        Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D other) // This Is used to Check If hitting a wall Area and then To Turn Back 
@@ -64,7 +73,16 @@ public class RandomMove : MonoBehaviour
         {
             Debug.Log("Enemy hit"); // Used Currently In Testing
             myAnime.SetBool("Hurt", true);
-            StartCoroutine(WaitForDeathAnimation());
+            HP = HP - 1;
+            StartCoroutine(WaitForHurtAnimation());
+        }
+
+        if (other.gameObject.tag == "Ball" && myAnime.GetBool("Hurt") == false) // Can Do Damage inside of here and this will give invublity on hit
+        {
+            Debug.Log("Enemy hit"); // Used Currently In Testing
+            myAnime.SetBool("Hurt", true);
+            HP = HP - 5;
+            StartCoroutine(WaitForHurtAnimation());
         }
     }
 
