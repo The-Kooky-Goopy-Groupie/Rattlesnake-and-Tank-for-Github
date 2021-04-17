@@ -32,7 +32,7 @@ public class BulletCollisions : MonoBehaviour
             Destroy(this.gameObject);
         }
       
-        if (other.gameObject.tag == "Enemy Bullet") // != Exists! can be used for the thing
+        if (other.gameObject.tag == "Enemy Bullets") // != Exists! can be used for the thing
         {
             Debug.Log("COLLISION Bullet DETECTED");
             Destroy(this.gameObject);

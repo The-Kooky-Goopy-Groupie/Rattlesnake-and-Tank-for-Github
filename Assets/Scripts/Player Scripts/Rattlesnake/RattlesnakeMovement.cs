@@ -9,8 +9,16 @@ public class RattlesnakeMovement : MonoBehaviour
     public Animator myAnime;
     public Rigidbody2D MyRig;
     float Speed = 2.0f;
-    public int HP = 10;
-    public int MaxHP = 10;
+    public static int HP = 10;
+    public static int MaxHP = 10;
+    public bool HasItem1 = false;
+    public bool HasItem2 = false;
+    public GameObject Bullet;
+    public Transform firePoint;
+
+    Vector2 lookDirection;
+    float lookAngle;
+
 
     // Start is called before the first frame update
     void Start()
@@ -49,9 +57,26 @@ public class RattlesnakeMovement : MonoBehaviour
 
         }
 
-        if (HP < 0)
+        if (HP <= 0)
         {
             SceneManager.LoadScene("Scene 4.1 - Lose!", LoadSceneMode.Single);
+        }
+
+        if (Input.GetAxisRaw("Jump") > 0 && HasItem2 == true) {
+            HP = HP + 2;
+        }
+        if (Input.GetAxisRaw("Jump") > 0 && HasItem1 == true)
+        {
+            myAnime.SetInteger("DIR", 3);
+            
+            lookDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - firePoint.position;  
+            lookAngle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg; 
+
+            GameObject bulletClone = Instantiate(Bullet);
+            bulletClone.transform.position = firePoint.position;
+            bulletClone.transform.rotation = Quaternion.Euler(0, 0, lookAngle);
+
+            bulletClone.GetComponent<Rigidbody2D>().velocity = firePoint.right * Speed;
         }
     }
 
@@ -61,12 +86,12 @@ public class RattlesnakeMovement : MonoBehaviour
 
         if (other.gameObject.tag == "Enemy Bullets")
         {
-            Debug.Log("COLLISION ENEMY BULLET DETECTED");
+           
             HP = HP - 1; // put after sending it away 
         }
         if (other.gameObject.tag == "Enemy Strong Bullets")
         {
-            Debug.Log("COLLISION ENEMY BULLET DETECTED");
+           
             HP = HP - 2; // put after sending it away 
         }
 

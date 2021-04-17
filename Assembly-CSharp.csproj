@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Animations\Enemy Animator\EnemyBulletDespawns.cs" />
+    <Compile Include="Assets\BulletSkull.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Flying.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\RandomMove.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\RandomMoveBoss.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\Scripts\Player Scripts\Tank\BallShooting.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Tank\BallStart.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Tank\Weapon.cs" />
+    <Compile Include="Assets\Sprites\Player Sprites\Rattlesnake\FillHp.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
