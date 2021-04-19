@@ -320,3 +320,4 @@ MonoBehaviour:
   timer: 0
   Bullet: {fileID: 3743477038883668511, guid: d338b1e20a815fd43808329834288f29, type: 3}
   firePoint: {fileID: 2131811488431212107}
+  Activator: {fileID: 0}

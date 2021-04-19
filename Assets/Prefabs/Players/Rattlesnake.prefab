@@ -215,8 +215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myAnime: {fileID: 0}
   MyRig: {fileID: 0}
-  HP: 10
-  MaxHP: 10
+  Bullet: {fileID: 445600526698488704, guid: b54ff80b05661b447a2d8641d01307c2, type: 3}
+  firePoint: {fileID: 8884437034599592460}
+  Activator: {fileID: 0}
 --- !u!61 &8884437034823907817
 BoxCollider2D:
   m_ObjectHideFlags: 0

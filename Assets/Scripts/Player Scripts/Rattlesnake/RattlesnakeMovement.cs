@@ -11,10 +11,12 @@ public class RattlesnakeMovement : MonoBehaviour
     float Speed = 2.0f;
     public static int HP = 10;
     public static int MaxHP = 10;
-    public bool HasItem1 = false;
-    public bool HasItem2 = false;
+    public static bool HasItem1 = false;
+    public static bool HasItem2 = false;
     public GameObject Bullet;
     public Transform firePoint;
+
+    public PaneAndSceneHandler Activator;
 
     Vector2 lookDirection;
     float lookAngle;
@@ -62,21 +64,30 @@ public class RattlesnakeMovement : MonoBehaviour
             SceneManager.LoadScene("Scene 4.1 - Lose!", LoadSceneMode.Single);
         }
 
+
         if (Input.GetAxisRaw("Jump") > 0 && HasItem2 == true) {
             HP = HP + 2;
+            HasItem2 = false;
+            Activator.p4.SetActive(false);
         }
+
+
         if (Input.GetAxisRaw("Jump") > 0 && HasItem1 == true)
         {
             myAnime.SetInteger("DIR", 3);
-            
+            HasItem1 = false;
+            Activator.p3.SetActive(false);
+
             lookDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - firePoint.position;  
             lookAngle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg; 
 
             GameObject bulletClone = Instantiate(Bullet);
             bulletClone.transform.position = firePoint.position;
-            bulletClone.transform.rotation = Quaternion.Euler(0, 0, lookAngle);
+            bulletClone.transform.rotation = Quaternion.Euler(0, 0, 0);
 
             bulletClone.GetComponent<Rigidbody2D>().velocity = firePoint.right * Speed;
+
+          
         }
     }
 

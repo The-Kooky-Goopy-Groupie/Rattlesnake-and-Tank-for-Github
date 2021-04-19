@@ -9,6 +9,11 @@ public class PaneAndSceneHandler : MonoBehaviour
     public GameObject p1; // p1 is the Pane for the start screen buttons
     public GameObject p2; // pane two is used for the sound settings buttons
 
+    public GameObject p3; // These two are used for the items
+    public GameObject p4; 
+
+
+
     public void setPanel(int p) // This is the code that will be attached to the Canvas in order
     {
         switch (p) // Each of the comments above these state the type of Code
