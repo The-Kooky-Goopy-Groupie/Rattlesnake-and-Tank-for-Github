@@ -23,8 +23,8 @@ public class EnemyFinder : MonoBehaviour // Used to see if all the basic enemy a
     {
             if (EnemyCount <= 0)
             {
-                SceneManager.LoadScene("bonus");
-            }
+                SceneManager.LoadScene("Scene 2 - Level 1.1 - Tutorial Plains", LoadSceneMode.Single);
+             }
         }
     }
 
