@@ -31,10 +31,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -77,13 +75,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 12990}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13582}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13762}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 14382}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -130,13 +128,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 12990}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13582}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13762}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 14382}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -183,13 +181,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 12990}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13582}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13762}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 14382}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -240,13 +238,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 12990}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13582}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13762}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 14382}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -311,33 +309,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 12386}
+      Script: {instanceID: 12388}
     - Class: 114
-      Script: {instanceID: 12598}
+      Script: {instanceID: 12600}
     - Class: 114
-      Script: {instanceID: 12620}
+      Script: {instanceID: 12622}
     - Class: 114
-      Script: {instanceID: 12816}
+      Script: {instanceID: 12818}
     - Class: 114
-      Script: {instanceID: 13098}
+      Script: {instanceID: 13100}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13582}
     - Class: 114
-      Script: {instanceID: 13624}
+      Script: {instanceID: 13628}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13762}
     - Class: 114
-      Script: {instanceID: 13920}
+      Script: {instanceID: 13924}
     - Class: 114
-      Script: {instanceID: 13978}
+      Script: {instanceID: 13982}
     - Class: 114
-      Script: {instanceID: 14198}
+      Script: {instanceID: 14202}
     - Class: 114
-      Script: {instanceID: 14324}
+      Script: {instanceID: 14328}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 14382}
     - Class: 114
-      Script: {instanceID: 14432}
+      Script: {instanceID: 14436}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -400,33 +398,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 12598}
+      Script: {instanceID: 12600}
     - Class: 114
-      Script: {instanceID: 12620}
+      Script: {instanceID: 12622}
     - Class: 114
-      Script: {instanceID: 12816}
+      Script: {instanceID: 12818}
     - Class: 114
-      Script: {instanceID: 13098}
+      Script: {instanceID: 13100}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13282}
     - Class: 114
-      Script: {instanceID: 13624}
+      Script: {instanceID: 13582}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13628}
     - Class: 114
-      Script: {instanceID: 13920}
+      Script: {instanceID: 13762}
     - Class: 114
-      Script: {instanceID: 13978}
+      Script: {instanceID: 13924}
     - Class: 114
-      Script: {instanceID: 14198}
+      Script: {instanceID: 13982}
     - Class: 114
-      Script: {instanceID: 14324}
+      Script: {instanceID: 14202}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 14328}
     - Class: 114
-      Script: {instanceID: 14432}
+      Script: {instanceID: 14382}
     - Class: 114
-      Script: {instanceID: 38740}
+      Script: {instanceID: 14436}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -443,7 +441,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Scene 2 - Level 1.2 - Tutorial Plains.unity:
+    Assets/Scenes/Scene 3 - Level 2.0 - Bunny Bulivard.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -489,33 +487,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 12598}
+      Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 12620}
+      Script: {instanceID: 12622}
     - Class: 114
-      Script: {instanceID: 12816}
+      Script: {instanceID: 12818}
     - Class: 114
-      Script: {instanceID: 13098}
+      Script: {instanceID: 13582}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13628}
     - Class: 114
-      Script: {instanceID: 13624}
+      Script: {instanceID: 13762}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13924}
     - Class: 114
-      Script: {instanceID: 13920}
+      Script: {instanceID: 14202}
     - Class: 114
-      Script: {instanceID: 13978}
+      Script: {instanceID: 14382}
     - Class: 114
-      Script: {instanceID: 14198}
-    - Class: 114
-      Script: {instanceID: 14324}
-    - Class: 114
-      Script: {instanceID: 14378}
-    - Class: 114
-      Script: {instanceID: 14432}
-    - Class: 114
-      Script: {instanceID: 46682}
+      Script: {instanceID: 14436}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -715,6 +705,12 @@ ScriptsOnlyBuild:
     className: CinemachinePixelPerfect
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyFinder3
+  - hash:
+      serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -875,6 +871,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyFinder2
   - hash:
       serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
@@ -1109,26 +1111,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemyFinder2
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemyFinder3
   platform: 5
   scenePathNames:
   - Assets/Scenes/Scene 1 - Title 1.unity
   - Assets/Scenes/Cutscene 1.unity
   - Assets/Scenes/Scene 2 - Level 1 - Tutorial Plains.unity
   - Assets/Scenes/Scene 2 - Level 1.1 - Tutorial Plains.unity
-  - Assets/Scenes/Scene 2 - Level 1.2 - Tutorial Plains.unity
   - Assets/Scenes/Cutscene 2.unity
+  - Assets/Scenes/Scene 3 - Level 2.0 - Bunny Bulivard.unity
   - Assets/Scenes/Cutscene 3.unity
   playerPath: C:/Users/dylan/Documents/GitHub/Rattlesnake and Tank/Rattlesnake and
     Tank.exe
