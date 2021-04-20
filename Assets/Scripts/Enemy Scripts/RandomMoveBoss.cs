@@ -72,20 +72,20 @@ public class RandomMoveBoss : MonoBehaviour
     {
         if (other.gameObject.tag == "Walling")
         {
-            Debug.Log("COLLISION  WALL"); // Used Currently In Testing
+         
             movementPerSecond = -movementDirection * characterVelocity; // Inverses the direction on the movement Instead
         }
 
         if (other.gameObject.tag == "Ball") // Can Do Damage inside of here and this will give invublity on hit
         {
-            Debug.Log("Enemy hit - Ball"); // Used Currently In Testing
+            
             StartCoroutine(InvunurbilityFrames());
             HP = HP - 5;
         }
 
         if (other.gameObject.tag == "Bullet") // Can Do Damage inside of here and this will give invublity on hit
         {
-            Debug.Log("Enemy hit"); // Used Currently In Testing
+         
             StartCoroutine(InvunurbilityFrames());
             HP = HP - 1;
         }

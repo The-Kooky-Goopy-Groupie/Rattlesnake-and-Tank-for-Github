@@ -38,7 +38,7 @@ public class PaneAndSceneHandler : MonoBehaviour
                  SceneManager.LoadScene("Cutscene 1", LoadSceneMode.Single);
                 break;
             case 4:
-                SceneManager.LoadScene("Cutscene 2", LoadSceneMode.Single);
+                SceneManager.LoadScene("Scene 3 - Level 2 - Town", LoadSceneMode.Single);
                 break;
             case 5:
                 SceneManager.LoadScene("Cutscene 3", LoadSceneMode.Single);

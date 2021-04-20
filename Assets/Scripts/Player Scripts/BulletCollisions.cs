@@ -21,20 +21,20 @@ public class BulletCollisions : MonoBehaviour
     {
         if (other.gameObject.tag ==  "Basic Walling") // != Exists! can be used for the thing
         {
-            Debug.Log("COLLISION Wall DETECTED");
+    
             Destroy(this.gameObject);
         }
 
 
         if (other.gameObject.tag == "Basic Enemy" || other.gameObject.tag == "Boss Enemy") // != Exists! can be used for the thing
         {
-            Debug.Log("COLLISION Enenmy DETECTED");
+           
             Destroy(this.gameObject);
         }
       
         if (other.gameObject.tag == "Enemy Bullets") // != Exists! can be used for the thing
         {
-            Debug.Log("COLLISION Bullet DETECTED");
+       
             Destroy(this.gameObject);
         }
 
