@@ -41,7 +41,8 @@ public class RandomMove : MonoBehaviour
 
         //move enemy: 
         transform.position = new Vector2(transform.position.x + (movementPerSecond.x * Time.deltaTime),    transform.position.y + (movementPerSecond.y * Time.deltaTime));
-        
+        // my rig velocity 
+        // movement
         if (HP <= 0)
         {
             StartCoroutine(WaitForDeathAnimation());

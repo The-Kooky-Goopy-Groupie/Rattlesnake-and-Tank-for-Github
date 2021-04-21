@@ -66,14 +66,14 @@ public class RattlesnakeMovement : MonoBehaviour
         }
 
 
-        if (Input.GetAxisRaw("Jump") > 0 && HasItem2 == true) {
+        if (Input.GetAxisRaw("Fire4") > 0 && HasItem2 == true) {
             HP = HP + 2;
             HasItem2 = false;
             Activator.p4.SetActive(false);
         }
 
 
-        if (Input.GetAxisRaw("Jump") > 0 && HasItem1 == true)
+        if (Input.GetAxisRaw("Fire3") > 0 && HasItem1 == true)
         {
             myAnime.SetInteger("DIR", 3);
             HasItem1 = false;
@@ -105,6 +105,11 @@ public class RattlesnakeMovement : MonoBehaviour
         {
            
             HP = HP - 2; // put after sending it away 
+        }
+        if (other.gameObject.tag == "Basic Enemy")
+        {
+
+            HP = HP - 1; // put after sending it away 
         }
 
     }
