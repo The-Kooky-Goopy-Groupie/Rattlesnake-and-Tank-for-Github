@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2866072070290278815}
   - component: {fileID: 913560958530746672}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Other Half of Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 3755668041274778958}
   - component: {fileID: 936095142851152290}
   - component: {fileID: 7900032606028669630}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: 'Table '
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -50,12 +50,14 @@ public class BallStart : MonoBehaviour
         {
             RattlesnakeMovement.HasItem1 = true;
             Activator.p3.SetActive(true);
+            Destroy(other.gameObject);
         }
 
         if (other.gameObject.tag == "Heart Item")
         {
             RattlesnakeMovement.HasItem2 = true;
             Activator.p4.SetActive(true);
+            Destroy(other.gameObject);
         }
 
     }

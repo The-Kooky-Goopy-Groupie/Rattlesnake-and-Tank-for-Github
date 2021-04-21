@@ -10,13 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 445600526698488732}
   - component: {fileID: 445600526698488707}
-  - component: {fileID: 445600526698488706}
   - component: {fileID: 445600526698488705}
   - component: {fileID: -2202701357992736251}
   - component: {fileID: -4744759848235516935}
   m_Layer: 10
   m_Name: Skull Bullet
-  m_TagString: Bullet
+  m_TagString: Skull Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,18 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &445600526698488706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445600526698488704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf6509bbbf4185b45a4eb71c008b24d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &445600526698488705
 BoxCollider2D:
   m_ObjectHideFlags: 0

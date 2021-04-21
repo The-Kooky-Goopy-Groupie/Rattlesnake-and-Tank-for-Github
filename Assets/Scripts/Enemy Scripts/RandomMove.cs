@@ -42,7 +42,7 @@ public class RandomMove : MonoBehaviour
         //move enemy: 
         transform.position = new Vector2(transform.position.x + (movementPerSecond.x * Time.deltaTime),    transform.position.y + (movementPerSecond.y * Time.deltaTime));
         
-        if (HP < 0)
+        if (HP <= 0)
         {
             StartCoroutine(WaitForDeathAnimation());
         }
@@ -85,6 +85,15 @@ public class RandomMove : MonoBehaviour
             HP = HP - 5;
             StartCoroutine(WaitForHurtAnimation());
         }
+
+        if (other.gameObject.tag == "Skull Bullet" && myAnime.GetBool("Hurt") == false) // Can Do Damage inside of here and this will give invublity on hit
+        {
+
+            myAnime.SetBool("Hurt", true);
+            HP = HP - 10;
+            StartCoroutine(WaitForHurtAnimation());
+        }
+
     }
 
 

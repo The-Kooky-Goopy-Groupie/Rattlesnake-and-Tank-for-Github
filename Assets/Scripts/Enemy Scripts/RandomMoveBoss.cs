@@ -11,8 +11,8 @@ public class RandomMoveBoss : MonoBehaviour
     private Vector2 movementDirection;
     private Vector2 movementPerSecond;
     public Animator myAnime;
-    public int HP = 100;
-    public int MaxHP = 100;
+    public int HP = 200;
+    public int MaxHP = 200;
     public float fireRate = 4f;
     float nextFire;
 
@@ -45,7 +45,7 @@ public class RandomMoveBoss : MonoBehaviour
         //move enemy: 
         transform.position = new Vector2(transform.position.x + (movementPerSecond.x * Time.deltaTime),
         transform.position.y + (movementPerSecond.y * Time.deltaTime));
-        if (HP < 0)
+        if (HP <= 0)
         {
             StartCoroutine(WaitForDeathAnimation());
         }
@@ -57,14 +57,15 @@ public class RandomMoveBoss : MonoBehaviour
     public IEnumerator WaitForDeathAnimation()
     {
         myAnime.SetInteger("DIR", 1);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.0f);
         SceneManager.LoadScene("Scene 4 - Win!", LoadSceneMode.Single);
+        HP = 200;
 
     }
 
     public IEnumerator InvunurbilityFrames()
     {
-        yield return new WaitForSeconds(.2f);
+        yield return new WaitForSeconds(.5f);
 
     }
 
@@ -88,6 +89,13 @@ public class RandomMoveBoss : MonoBehaviour
          
             StartCoroutine(InvunurbilityFrames());
             HP = HP - 1;
+        }
+
+        if (other.gameObject.tag == "Skull Bullet") // Can Do Damage inside of here and this will give invublity on hit
+        {
+
+            StartCoroutine(InvunurbilityFrames());
+            HP = HP - 10;
         }
     }
 }
