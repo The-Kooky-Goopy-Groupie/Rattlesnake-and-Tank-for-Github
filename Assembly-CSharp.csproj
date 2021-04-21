@@ -67,6 +67,9 @@
     <Compile Include="Assets\Animations\Enemy Animator\EnemyBulletDespawns.cs" />
     <Compile Include="Assets\BulletSkull.cs" />
     <Compile Include="Assets\Scenes\EnemyFinder3.cs" />
+    <Compile Include="Assets\Scenes\EnemyFinder4.cs" />
+    <Compile Include="Assets\Scenes\EnemyFinder5.cs" />
+    <Compile Include="Assets\Scenes\EnemyFinder6.cs" />
     <Compile Include="Assets\Scenes\MuteManager.cs" />
     <Compile Include="Assets\Scripts\Enemy Finders\EnemyFinder.cs" />
     <Compile Include="Assets\Scripts\Enemy Finders\EnemyFinder2.cs" />

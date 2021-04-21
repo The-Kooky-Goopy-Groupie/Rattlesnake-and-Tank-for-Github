@@ -41,9 +41,11 @@ public class PaneAndSceneHandler : MonoBehaviour
                 SceneManager.LoadScene("Scene 3 - Level 2.0 - Bunny Bulivard", LoadSceneMode.Single);
                 break;
             case 5:
-                SceneManager.LoadScene("Cutscene 3", LoadSceneMode.Single);
+                SceneManager.LoadScene("Scene 4 - Final Boss", LoadSceneMode.Single);
                 break;
-            
+            case 6:
+                SceneManager.LoadScene("Scene 1 - Title 1", LoadSceneMode.Single);
+                break;
             default:
             break;
         }

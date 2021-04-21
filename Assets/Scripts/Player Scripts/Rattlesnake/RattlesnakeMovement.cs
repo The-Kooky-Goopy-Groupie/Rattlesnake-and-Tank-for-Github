@@ -61,7 +61,8 @@ public class RattlesnakeMovement : MonoBehaviour
 
         if (HP <= 0)
         {
-            SceneManager.LoadScene("Scene 4.1 - Lose!", LoadSceneMode.Single);
+            SceneManager.LoadScene("Scene 4 - Lose!", LoadSceneMode.Single);
+            HP = 10;
         }
 
 

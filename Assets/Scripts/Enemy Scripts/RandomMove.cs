@@ -12,6 +12,7 @@ public class RandomMove : MonoBehaviour
     public Animator myAnime;
     public int HP = 10;
     public int MaxHP = 10;
+    public GameObject Ball;
 
 
     void Start()
@@ -34,18 +35,17 @@ public class RandomMove : MonoBehaviour
         if (Time.time - latestDirectionChangeTime > directionChangeTime)
         {
             latestDirectionChangeTime = Time.time;
-            directionChangeTime = Random.Range(0f, 5.0f); // THIS IS USED TO MAKE THE RANDOM CODE HAPPEN ON A RANDOM INTERVAL
+            directionChangeTime = Random.Range(0f, 3.0f); // THIS IS USED TO MAKE THE RANDOM CODE HAPPEN ON A RANDOM INTERVAL
             calcuateNewMovementVector();
         }
 
         //move enemy: 
-        transform.position = new Vector2(transform.position.x + (movementPerSecond.x * Time.deltaTime),
-        transform.position.y + (movementPerSecond.y * Time.deltaTime));
+        transform.position = new Vector2(transform.position.x + (movementPerSecond.x * Time.deltaTime),    transform.position.y + (movementPerSecond.y * Time.deltaTime));
+        
         if (HP < 0)
         {
             StartCoroutine(WaitForDeathAnimation());
         }
-
     }
 
     public IEnumerator WaitForHurtAnimation()
@@ -56,7 +56,7 @@ public class RandomMove : MonoBehaviour
     public IEnumerator WaitForDeathAnimation()
     {
         myAnime.SetBool("Death", true);
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
     }
 
@@ -64,9 +64,10 @@ public class RandomMove : MonoBehaviour
     {
         if (other.gameObject.tag == "Walling")
         {
-            
-            movementPerSecond = -movementDirection * characterVelocity; // Inverses the direction on the movement Instead
-            //movementDirection = new Vector2(0, 0);
+           
+            movementPerSecond = - movementDirection * characterVelocity; // Inverses the direction on the movement Instead
+            calcuateNewMovementVector();
+
         }
 
         if (other.gameObject.tag == "Bullet" && myAnime.GetBool("Hurt") == false) // Can Do Damage inside of here and this will give invublity on hit
@@ -86,4 +87,32 @@ public class RandomMove : MonoBehaviour
         }
     }
 
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Walling")
+        {
+           calcuateNewMovementVector();
+           
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Debug.Log("Hit a wall");
+            movementDirection = new Vector2(0 , 0);
+            movementPerSecond = movementDirection * characterVelocity; // Inverses the direction on the movement Instead
+
+
+           */

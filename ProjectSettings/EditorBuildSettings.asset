@@ -18,12 +18,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene 2 - Level 1.1 - Tutorial Plains.unity
     guid: f613aef0ca9fa7c468485b54a1f1ef9f
   - enabled: 1
+    path: Assets/Scenes/Scene 2 - Level 1.2 - Tutorial Plains.unity
+    guid: dd0c287a1998a9449a3417954d797a87
+  - enabled: 1
     path: Assets/Scenes/Cutscene 2.unity
     guid: 8c38dfe60029f1d4fb30eff6936ddb09
   - enabled: 1
     path: Assets/Scenes/Scene 3 - Level 2.0 - Bunny Bulivard.unity
+    guid: 5dcc0a481023f7f419023f1340cba3d0
+  - enabled: 1
+    path: Assets/Scenes/Scene 3 - Level 2.1 - Bunny Bulivard.unity
+    guid: 4a78e512231bbfd4f87899faa55e9bb0
+  - enabled: 1
+    path: Assets/Scenes/Scene 3 - Level 2.2 - Bunny Bulivard.unity
     guid: 2f6a01ab20972db40af8b8e9dfd4d4bb
   - enabled: 1
     path: Assets/Scenes/Cutscene 3.unity
     guid: 6d098123d6358da4aaadbdefb079382c
+  - enabled: 1
+    path: Assets/Scenes/Scene 4 - Final Boss.unity
+    guid: ca99f157ec276154dbc6aafe90cf68b2
+  - enabled: 1
+    path: Assets/Scenes/Scene 4 - Win!.unity
+    guid: f15fe58a072f24741b072513ad0b13f7
+  - enabled: 1
+    path: Assets/Scenes/Scene 4 - Lose!.unity
+    guid: 007c2d3a6ec33a9479ef811dd79c949b
   m_configObjects: {}
