@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6699492481076943831}
   - component: {fileID: 6699492481076943830}
+  - component: {fileID: 653914666985086642}
   - component: {fileID: 6699492481076943829}
   - component: {fileID: 6699492481076943828}
   - component: {fileID: 6699492481076943827}
-  - component: {fileID: 6699492481076943826}
   - component: {fileID: 6699492481076943816}
   m_Layer: 13
   m_Name: Barrel Bunny
@@ -87,6 +87,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &653914666985086642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6699492481076943825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5814e17b86e21e4fa3443882e81ad16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnime: {fileID: 0}
+  HP: 10
+  MaxHP: 10
+  Ball: {fileID: 0}
+  WallCollision: 0
 --- !u!61 &6699492481076943829
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -160,21 +177,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
---- !u!114 &6699492481076943826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6699492481076943825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef1fff1930958f646b4c20a1cb252f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myAnime: {fileID: 0}
-  HP: 10
-  MaxHP: 10
 --- !u!95 &6699492481076943816
 Animator:
   serializedVersion: 3

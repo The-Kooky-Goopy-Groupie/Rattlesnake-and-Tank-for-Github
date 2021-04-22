@@ -9,13 +9,13 @@ public class EnemyBulletDespawns : MonoBehaviour
         // Start is called before the first frame update
         if (other.gameObject.tag == "Basic Walling") // != Exists! can be used for the thing
         {
-            Debug.Log("COLLISION DETECTED WALL");
+
             Destroy(this.gameObject);
         }
 
         if (other.gameObject.tag == "Player") // != Exists! can be used for the thing
         {
-            Debug.Log("COLLISION Player DETECTED");
+
             Destroy(this.gameObject);
         }
 
@@ -26,7 +26,7 @@ public class EnemyBulletDespawns : MonoBehaviour
         }
         if (other.gameObject.tag == "Bullet") // != Exists! can be used for the thing
         {
-            Debug.Log("COLLISION Ball DETECTED");
+          
             Destroy(this.gameObject);
         }
 

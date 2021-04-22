@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6599538200431717873}
   - component: {fileID: 6599538200431717874}
   - component: {fileID: 6599538200431717875}
-  - component: {fileID: 6599538200431717868}
   - component: {fileID: 6599538200431717878}
   - component: {fileID: 6599538200431717877}
+  - component: {fileID: 7928908580873155154}
   m_Layer: 13
   m_Name: Bad Bunny
   m_TagString: Basic Enemy
@@ -161,21 +161,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
---- !u!114 &6599538200431717868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6599538200431717869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef1fff1930958f646b4c20a1cb252f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myAnime: {fileID: 0}
-  HP: 10
-  MaxHP: 10
 --- !u!95 &6599538200431717878
 Animator:
   serializedVersion: 3
@@ -209,3 +194,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8220626824320519305, guid: efaf4b4fc38332a4cb04ce7638a999c9, type: 3}
   fireRate: 6
+--- !u!114 &7928908580873155154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6599538200431717869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5814e17b86e21e4fa3443882e81ad16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnime: {fileID: 0}
+  HP: 10
+  MaxHP: 10
+  Ball: {fileID: 0}
+  WallCollision: 0
